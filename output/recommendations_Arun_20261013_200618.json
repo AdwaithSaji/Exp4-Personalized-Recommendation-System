@@ -1,0 +1,122 @@
+{
+  "saved_at": "2026-10-13T20:06:19",
+  "profile": {
+    "name": "Arun",
+    "age": 20,
+    "background": "Computer Science student",
+    "interests": [
+      "Python",
+      "AI",
+      "Data Science"
+    ],
+    "skill_level": "Intermediate",
+    "preferred_category": "Any",
+    "goal": "Learn AI and build real projects",
+    "preferences": "practical, hands-on courses",
+    "num_items": 5,
+    "liked": [
+      "AI",
+      "harder courses"
+    ],
+    "disliked": [
+      "Web Development",
+      "easy courses"
+    ]
+  },
+  "feedback_history": [
+    {
+      "feedback": "I am more interested in AI than Web Development.",
+      "increase": [
+        "AI"
+      ],
+      "decrease": [
+        "Web Development"
+      ],
+      "skill_level": null,
+      "summary": "The learner wants to focus more on AI and less on Web Development."
+    },
+    {
+      "feedback": "these courses are too easy for me",
+      "increase": [
+        "harder courses"
+      ],
+      "decrease": [
+        "easy courses"
+      ],
+      "skill_level": "up",
+      "summary": "The learner is looking for more challenging courses to match their skill level."
+    }
+  ],
+  "recommendations": [
+    {
+      "rank": 1,
+      "title": "Computer Vision with OpenCV",
+      "type": "Course",
+      "domain": "Artificial Intelligence",
+      "level": "Intermediate",
+      "format": "Practical",
+      "duration_hours": 26,
+      "score": 77.2,
+      "llm_confidence": 90.0,
+      "semantic": 46.35760307312012,
+      "matched_interests": "AI",
+      "explanation": "This course is perfect for the user as it focuses on practical image processing and object detection using OpenCV and deep learning, allowing them to build real-world projects and gain hands-on experience in Computer Vision. By the end of this course, the user will be able to develop their skills in image processing and object detection, making them more confident in their ability to work with computer vision techniques."
+    },
+    {
+      "rank": 2,
+      "title": "Hands-On Machine Learning (Book)",
+      "type": "Book",
+      "domain": "Artificial Intelligence",
+      "level": "Intermediate",
+      "format": "Practical",
+      "duration_hours": 60,
+      "score": 75.9,
+      "llm_confidence": 75.0,
+      "semantic": 59.778112173080444,
+      "matched_interests": "-",
+      "explanation": "This book is ideal for the user as it provides a comprehensive and practical guide to machine learning using popular libraries such as scikit-learn, Keras, and TensorFlow, with end-to-end projects that help them apply theoretical concepts to real-world problems. By completing this book, the user will gain a solid understanding of machine learning fundamentals and be able to build and deploy their own machine learning models."
+    },
+    {
+      "rank": 3,
+      "title": "Generative AI with Python",
+      "type": "Course",
+      "domain": "Artificial Intelligence",
+      "level": "Intermediate",
+      "format": "Practical",
+      "duration_hours": 18,
+      "score": 75.5,
+      "llm_confidence": 80.0,
+      "semantic": 52.84358263015747,
+      "matched_interests": "Python, AI",
+      "explanation": "This course is suitable for the user as it introduces them to the world of generative AI using Python, allowing them to build applications with large language models and explore prompt engineering and local LLMs. By taking this course, the user will gain hands-on experience with generative AI and be able to develop their skills in natural language processing and text generation."
+    },
+    {
+      "rank": 4,
+      "title": "Chatbot using Local LLM",
+      "type": "Project",
+      "domain": "Artificial Intelligence",
+      "level": "Intermediate",
+      "format": "Practical",
+      "duration_hours": 12,
+      "score": 70.9,
+      "llm_confidence": 85.0,
+      "semantic": 33.95311772823334,
+      "matched_interests": "Python, AI",
+      "explanation": "This project is perfect for the user as it allows them to build a conversational chatbot using Ollama and Llama models, providing a practical introduction to natural language processing and dialogue systems. By completing this project, the user will gain experience in building conversational interfaces and develop their skills in text generation and understanding."
+    },
+    {
+      "rank": 5,
+      "title": "Google TensorFlow Developer Certificate",
+      "type": "Certification",
+      "domain": "Artificial Intelligence",
+      "level": "Intermediate",
+      "format": "Practical",
+      "duration_hours": 50,
+      "score": 70.9,
+      "llm_confidence": 70.0,
+      "semantic": 51.14687740802765,
+      "matched_interests": "-",
+      "explanation": "This certification is ideal for the user as it validates their ability to build deep learning models with TensorFlow, a popular and widely-used framework in the industry. By completing this certification, the user will demonstrate their expertise in TensorFlow and be able to build and deploy complex deep learning models in industry applications."
+    }
+  ]
+}
