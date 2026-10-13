@@ -1,0 +1,116 @@
+{
+  "saved_at": "2026-10-13T20:17:50",
+  "profile": {
+    "name": "Arun",
+    "age": 20,
+    "background": "Computer Science student",
+    "interests": [
+      "Python",
+      "AI",
+      "Data Science"
+    ],
+    "skill_level": "Intermediate",
+    "preferred_category": "Any",
+    "goal": "Learn AI and build real projects",
+    "preferences": "practical, hands-on courses",
+    "num_items": 5,
+    "liked": [
+      "AI"
+    ],
+    "disliked": [
+      "Web Development"
+    ]
+  },
+  "feedback_history": [
+    {
+      "feedback": "I am more interested in AI than Web Development.",
+      "increase": [
+        "AI"
+      ],
+      "decrease": [
+        "Web Development"
+      ],
+      "skill_level": null,
+      "summary": "The learner prefers to focus more on AI and less on Web Development."
+    },
+    {
+      "feedback": "these courses are too easy for me",
+      "increase": [],
+      "decrease": [],
+      "skill_level": "up",
+      "summary": "The learner is looking for more challenging courses to meet their needs."
+    }
+  ],
+  "recommendations": [
+    {
+      "rank": 1,
+      "title": "Generative AI with Python",
+      "type": "Course",
+      "domain": "Artificial Intelligence",
+      "level": "Intermediate",
+      "format": "Practical",
+      "duration_hours": 18,
+      "score": 80.8,
+      "llm_confidence": 90.0,
+      "semantic": 56.440051794052124,
+      "matched_interests": "Python, AI",
+      "explanation": "This course on Generative AI with Python is perfect for you as it will help you build real-world applications using large language models, enabling you to experiment with prompt engineering and local LLMs. By mastering this skill, you'll gain hands-on experience in generating text, images, and other forms of content using AI, which is a crucial aspect of AI development."
+    },
+    {
+      "rank": 2,
+      "title": "Hands-On Machine Learning (Book)",
+      "type": "Book",
+      "domain": "Artificial Intelligence",
+      "level": "Intermediate",
+      "format": "Practical",
+      "duration_hours": 60,
+      "score": 78.9,
+      "llm_confidence": 80.0,
+      "semantic": 62.52416551113129,
+      "matched_interests": "-",
+      "explanation": "The Hands-On Machine Learning book is ideal for you as it provides practical guidance on scikit-learn, Keras, and TensorFlow, allowing you to build end-to-end projects and reinforce your understanding of machine learning concepts. By working through this book, you'll gain expertise in building and deploying machine learning models, which is a fundamental skill for any AI enthusiast."
+    },
+    {
+      "rank": 3,
+      "title": "Chatbot using Local LLM",
+      "type": "Project",
+      "domain": "Artificial Intelligence",
+      "level": "Intermediate",
+      "format": "Practical",
+      "duration_hours": 12,
+      "score": 72.6,
+      "llm_confidence": 85.0,
+      "semantic": 38.76914083957672,
+      "matched_interests": "Python, AI",
+      "explanation": "The Chatbot using Local LLM course is a great fit for you as it enables you to build a conversational chatbot using Ollama and Llama models, giving you hands-on experience with natural language processing and dialogue management. By completing this project, you'll gain a deeper understanding of how to create intelligent chatbots that can engage with users in a more human-like way."
+    },
+    {
+      "rank": 4,
+      "title": "Computer Vision with OpenCV",
+      "type": "Course",
+      "domain": "Artificial Intelligence",
+      "level": "Intermediate",
+      "format": "Practical",
+      "duration_hours": 26,
+      "score": 71.9,
+      "llm_confidence": 75.0,
+      "semantic": 48.217517137527466,
+      "matched_interests": "AI",
+      "explanation": "The Computer Vision with OpenCV course is suitable for you as it provides a comprehensive introduction to image processing, object detection, and face recognition using OpenCV and deep learning. By working on projects in this course, you'll gain practical experience with computer vision techniques and develop skills that are essential for building AI-powered image analysis applications."
+    },
+    {
+      "rank": 5,
+      "title": "Kaggle Data Science Challenge",
+      "type": "Project",
+      "domain": "Data Science",
+      "level": "Intermediate",
+      "format": "Practical",
+      "duration_hours": 20,
+      "score": 66.4,
+      "llm_confidence": 70.0,
+      "semantic": 38.42168211936951,
+      "matched_interests": "Data Science",
+      "explanation": "The Kaggle Data Science Challenge is an excellent opportunity for you to practise feature engineering, model tuning, and data analysis in a real-world setting, helping you develop your skills in data science and AI. By participating in this challenge, you'll gain experience working with large datasets, identifying patterns, and developing predictive models, all of which are critical skills for AI development."
+    }
+  ]
+}

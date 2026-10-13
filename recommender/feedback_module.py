@@ -13,6 +13,8 @@ def collect_feedback():
 
 LEVEL_UP = ("too easy", "too basic", "more advanced", "harder", "challenging")
 LEVEL_DOWN = ("too hard", "too difficult", "too advanced", "easier", "simpler")
+DIFFICULTY_WORDS = ("easy", "easier", "hard", "difficult", "advanced", "basic",
+                    "challenging", "simple")
 
 
 def _rule_based(feedback):
@@ -37,7 +39,8 @@ def interpret_feedback(feedback):
     prompt = (
         f'A learner gave this feedback on their recommendations: "{feedback}"\n'
         "Extract the topics they want more of and the topics they want less of. "
-        "Use short topic names exactly as the learner wrote them. Respond in JSON as "
+        "Use short subject names exactly as the learner wrote them; difficulty words "
+        "such as easy or advanced are not topics. Respond in JSON as "
         '{"increase": [topics], "decrease": [topics], '
         '"summary": "<one sentence>"}'
     )
@@ -47,7 +50,11 @@ def interpret_feedback(feedback):
         ui.warn(f"LLM feedback parsing failed ({exc}); using rule-based parser.")
         parsed = {}
     rules = _rule_based(feedback)
-    clean = lambda xs: [str(x).strip() for x in (xs or []) if str(x).strip()]
+
+    def clean(xs):
+        # Difficulty words are handled as a level change, not as topics.
+        return [str(x).strip() for x in (xs or []) if str(x).strip()
+                and not any(w in str(x).lower() for w in DIFFICULTY_WORDS)]
     return {
         "increase": clean(parsed.get("increase")) or rules["increase"],
         "decrease": clean(parsed.get("decrease")) or rules["decrease"],
